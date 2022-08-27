@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coming Soon</title>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="app/dist/app.css" />
+
+    <!-- end Styles -->
+
+    <!-- Favicon and Touch Icons  -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/assets/images/logo/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/assets/images/logo/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/assets/images/logo/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/assets/images/logo/favicon/site.webmanifest" />
+  </head>
+  <body>
+    <!-- MAGIC CURSOR -->
+    <div class="mouse-cursor cursor-outer"></div>
+    <div class="mouse-cursor cursor-inner"></div>
+    <!-- /MAGIC CURSOR -->
+
+    <section class="comingsoon">
+      <div class="container">
+        <div class="row">
+          <div class="main-comingsoon center">
+            <div class="logo">
+              <a href="index.html"
+                ><img src="assets/images/logo/main_logo.png"
+              /></a>
+            </div>
+            <h3 class="heading font-fam">Hang on! We are launching soon</h3>
+            <p class="fs-15 font-fam">
+              It will not take a long time till we get the IDO page setup. We
+              will be live again in approximately,
+            </p>
+            <span class="js-countdown font-fam">
+              <div class="countdown__timer">
+                <span class="countdown__item" id="timer-d"></span>
+                <span class="countdown__item" id="timer-hr"></span>
+                <span class="countdown__item" id="timer-m"></span>
+                <span class="countdown__item" id="timer-s"></span>
+              </div>
+            </span>
+            <form method="POST" action="https://formspree.io/f/xnqrawrn">
+              <input
+                name="email"
+                type="email"
+                class="font-fam"
+                placeholder="Enter your mail"
+                required=""
+              />
+              <button class="btn-action s2" type="submit">
+                <span class="effect font-fam">Notify Me</span>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="app/js/jquery.min.js"></script>
+    <script src="app/js/jquery.magnific-popup.min.js"></script>
+    <script src="app/js/jquery.easing.js"></script>
+    <script src="app/js/app.js"></script>
+    <script src="app/js/count-down.js"></script>
+    <script src="app/js/mouse.js"></script>
+  </body>
+</html>
