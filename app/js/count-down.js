@@ -1,5 +1,5 @@
 // Set the date we're counting down to
-var countDownDate = new ("August 27, 2022 20:30:00 GMT+0530").getTime();
+var countDownDate = new ("August 29, 2022 20:30:00 GMT+0530").getTime();
 
 var x = setInterval(function () {
   // Get today's date and time
